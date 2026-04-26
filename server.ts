@@ -8,7 +8,7 @@ import rateLimit from "express-rate-limit";
 
 async function startServer() {
   const app = express();
-  const PORT = process.env.PORT || 3000;
+  const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 3000;
 
   // Security and efficiency middlewares
   app.use(helmet({ contentSecurityPolicy: false })); // Disable CSP in dev to allow inline scripts from Vite
