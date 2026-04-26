@@ -1,0 +1,6 @@
+{
+  "name": "VoteGuide AI",
+  "description": "Your comprehensive AI-powered election assistant providing registration guides, polling locations, candidate details, and real-time support.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["AI Chat", "Election Tracking", "Voter Education"]
+}
